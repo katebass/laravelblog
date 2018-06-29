@@ -79,21 +79,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HELLO MY NAME IS KATYA
-                    <h3>Hello {{$name}}!!!<3<3</h3>
-                </div>
-                
-                <div>
-                    @foreach($items as $el)
-                        <p>There is {{$el}}</p>
-                    @endforeach
+                    KATYA
                 </div>
 
-                <div>
-                    @foreach($users as $el)
-                        <p>Name: {{$el->name}}</p>
-                    @endforeach
-                </div>
                 <div class="links">
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
